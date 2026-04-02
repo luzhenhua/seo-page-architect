@@ -135,6 +135,18 @@ Use these patterns when they fit the query:
 
 Do not imitate one industry's vocabulary blindly. Adapt these patterns to the user's industry.
 
+## Corporate-Safe Planning Rule
+
+If the brand is a listed company, highly regulated business, or otherwise sensitive to public claims, the page architecture must leave less room for vague supplier-promotion copy.
+
+Under this standard:
+
+- trust sections should focus on buyer-relevant operational support, not generic prestige
+- certification, patent, platform, or service claims should only appear when they clearly reduce buyer hesitation
+- avoid planning sections that invite brochure-summary language such as `the company states`, `the company mentions`, or long blocks of self-description
+- brand insertion points should emphasize factual support such as engineering, delivery, commissioning, diagnostics, spare parts, or project coordination
+- if a trust point is not clearly necessary for the keyword and page type, leave it out
+
 ## Output Requirements
 
 Always output in this structure.
@@ -295,6 +307,8 @@ Examples:
 - inside the selection section to explain customization or engineering support
 - near the end to reinforce service, delivery, installation, or quote support
 
+If the brand is sensitive to public-facing claims, prefer insert points tied to verifiable operational support rather than prestige statements.
+
 Do not push the brand into every section.
 
 ## Internal Link Suggestions
@@ -440,10 +454,13 @@ Examples:
 - where commercial intent should be strongest
 - where brand mention should stay brief
 - whether the tone should feel technical, consultative, practical, or comparison-led
+- whether the brand should be handled under a stricter corporate-safe standard
 
 ## Guardrails
 
 - Do not invent technical specs, certifications, or performance claims
+- Do not build page plans that rely on vague self-promotional company copy to carry the page
+- Do not encourage brand sections that would be risky, weakly sourced, or overly promotional for a listed company
 - Do not force every keyword into headings
 - Do not recommend a page structure that conflicts with the inferred search intent
 - Do not output full-body copy
