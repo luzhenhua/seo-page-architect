@@ -265,6 +265,17 @@ If the page type is `Product collection page`, also include:
 - Use secondary and long-tail keywords naturally
 - Make the structure suitable for a `1500-1700` word page when expanded
 - Do not force every page to begin with `What Is...` if a better angle exists
+- Do not create H2 sections that explain keyword differences, search behavior, or SEO logic to the reader. Keyword distinction, intent differentiation, and cannibalization avoidance are internal planning concerns. Handle them through `Internal Link Suggestions` and `Notes for Writers`, not through a reader-facing H2
+- Every H2 must serve the buyer's decision, not the SEO practitioner's workflow
+
+### H2 Overlap Check
+
+Before finalizing the H2 structure, review the planned sections for content overlap.
+
+- If two H2 sections would require the same type of content to fill (such as both listing material type, feed size, target fineness, and capacity), merge them or redefine each section's specific job
+- Each H2 must have a distinct `decision job`. Write it down internally: what specific question does this section answer that no other section answers?
+- A page with 5 H2s that each say something different is stronger than a page with 8 H2s that repeat the same point in different wording
+- If the page type template suggests more modules than the available evidence can support distinctly, drop the weaker modules rather than planning empty sections
 
 ## Module Logic
 
@@ -494,6 +505,7 @@ Examples:
 - Keep the architecture realistic for a business website
 - Prefer commercial clarity over SEO theater
 - Do not output a URL unless the user explicitly requests one
+- Do not plan H2 sections that expose SEO strategy to the reader, such as sections about related search terms, keyword overlap, or search intent differences. These belong in `Internal Link Suggestions` or `Notes for Writers`
 
 ## Handoff
 
