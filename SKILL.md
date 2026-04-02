@@ -147,6 +147,19 @@ Under this standard:
 - brand insertion points should emphasize factual support such as engineering, delivery, commissioning, diagnostics, spare parts, or project coordination
 - if a trust point is not clearly necessary for the keyword and page type, leave it out
 
+## Topic-Evidence Alignment Check
+
+Before finalizing the page architecture, check whether the keyword brief and available source-material notes point to the same topic.
+
+If they are aligned, continue normally.
+
+If they conflict clearly:
+
+- flag the conflict explicitly
+- state which topic is better supported by available evidence
+- recommend whether to keep the keyword topic with evidence limits or switch to an evidence-supported topic
+- avoid silently changing topic direction without surfacing the decision
+
 ## Output Requirements
 
 Always output in this structure.
@@ -184,6 +197,9 @@ CTA Intensity
 ## Evidence Blocks To Include
 - 
 
+## Evidence Alignment Check
+- 
+
 ## Brand Insert Points
 - 
 
@@ -206,9 +222,7 @@ If the page type is `Product collection page`, also include:
 
 ```markdown
 ## Product Subtype Modules
-- Subtype:
-  Purpose:
-  Suggested placement:
+- `Subtype: <name> | Purpose: <why it matters> | Suggested placement: <where it appears>`
 
 ## Future Child Pages
 - 
@@ -294,6 +308,18 @@ Examples:
 - compliance or materials-handled block
 
 Do not invent values. Define only the evidence format and purpose.
+
+## Evidence Alignment Check
+
+This section is required.
+
+State one of these:
+
+- `Aligned`: keyword direction and available source notes support the same topic
+- `Partial mismatch`: keyword direction is usable but key sections may lack evidence
+- `Mismatch`: source notes support a different topic more strongly
+
+When mismatch exists, add a concise recommendation for the next step.
 
 ## Brand Insert Points
 
@@ -461,6 +487,7 @@ Examples:
 - Do not invent technical specs, certifications, or performance claims
 - Do not build page plans that rely on vague self-promotional company copy to carry the page
 - Do not encourage brand sections that would be risky, weakly sourced, or overly promotional for a listed company
+- Do not ignore clear topic-evidence mismatch; flag it in `Evidence Alignment Check`
 - Do not force every keyword into headings
 - Do not recommend a page structure that conflicts with the inferred search intent
 - Do not output full-body copy
