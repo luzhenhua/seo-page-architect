@@ -91,6 +91,19 @@ If the upstream brief already recommends a page type, follow it unless it clearl
 
 If the page type is unclear, choose the best-fit mode and explain the reason briefly.
 
+## Single-Mode Planning Rule
+
+Choose one dominant page mode and commit to it.
+
+Do not blend a `Product collection page`, `Blog article`, `Category page`, and supplier-profile page into one mixed structure just because the topic could support several angles.
+
+Once the page mode is chosen:
+
+- the H2 structure, module order, FAQ topics, and CTA style must all support that mode
+- any secondary angle such as comparison, application guidance, or light education must serve the primary mode rather than replace it
+- do not create reader-facing sections whose real purpose is to explain how the page was planned, what evidence was reviewed, or what a good page should contain
+- if two modes seem plausible, choose the better primary mode and place the secondary angle in `Notes for Writers`, not in a mixed reader-facing structure
+
 ## Page Type Selection Logic
 
 Use these heuristics:
@@ -111,6 +124,20 @@ Examples of decision shapes:
 - `A vs B`
 - `Best solution for X application`
 - `How to choose a supplier or manufacturer`
+
+## Primary Decision Job Rule
+
+Before building the structure, decide the one main decision this page should help the reader make.
+
+Write it internally as one sentence:
+
+- `After reading this page, the visitor should be able to _____.`
+
+Use that sentence to filter the structure.
+
+- keep sections that directly move the reader toward that decision
+- merge or remove sections that only repeat context without changing the decision
+- do not add modules that belong to a different page mode unless they clearly support the same decision
 
 ## Content Model
 
@@ -160,6 +187,8 @@ If they conflict clearly:
 - recommend whether to keep the keyword topic with evidence limits or switch to an evidence-supported topic
 - avoid silently changing topic direction without surfacing the decision
 
+If the source notes mention multiple machine series, model families, or subtype systems, also state which ones are in scope for this page and which ones should stay out unless their relationship is explicit.
+
 ## Output Requirements
 
 Always output in this structure.
@@ -187,6 +216,8 @@ Evidence Density
 
 CTA Intensity
 
+Primary Decision Job
+
 ## H2-H3 Structure
 ### H2:
 - H3:
@@ -198,6 +229,9 @@ CTA Intensity
 - 
 
 ## Evidence Alignment Check
+- 
+
+## Scope Boundaries
 - 
 
 ## Brand Insert Points
@@ -257,6 +291,13 @@ If the page type is `Product collection page`, also include:
 - Follow with closely related secondary keywords
 - Use only terms supported by the brief
 - Do not stuff weakly related phrases
+
+### Primary Decision Job
+
+- State the single most important decision the page should help the visitor make
+- Make it concrete and buyer-facing
+- Avoid vague goals such as `understand the topic better`
+- A strong example: `After reading this page, the visitor should be able to choose between single shaft and double shaft options for the intended waste stream`
 
 ### H1-H3 Structure
 
@@ -331,6 +372,28 @@ State one of these:
 - `Mismatch`: source notes support a different topic more strongly
 
 When mismatch exists, add a concise recommendation for the next step.
+
+When multiple product families or series appear in the source notes, also specify:
+
+- which family or subtype group is the primary in-scope subject for the page
+- which related families are safe to mention only briefly
+- which names should be excluded from comparison tables or parameter blocks because the relationship is not explicit
+
+## Scope Boundaries
+
+This section is required.
+
+Use it to tell the next writer what not to let the page drift into.
+
+Examples:
+
+- do not turn a product collection page into a generic explainer article
+- do not build a supplier-profile section unless there is buyer-relevant supporting evidence
+- do not compare unrelated model families in one table
+- do not repeat the same selection factors in multiple H2 sections
+- do not add FAQ topics that are purely definitional if the page is commercial
+
+Keep this section short, concrete, and restrictive enough that a downstream writer can use it as a real guardrail instead of a vague reminder.
 
 ## Brand Insert Points
 
@@ -423,6 +486,8 @@ Typical structure:
 
 If the brief includes multiple machine types or variants, break them into separate subtype modules.
 
+The collection page should still behave like a commercial family page, not a broad encyclopedia article. Use educational sections only when they help the reader compare subtypes or choose the right configuration.
+
 ### 3. Category Page
 
 Typical structure:
@@ -501,6 +566,9 @@ Examples:
 - Do not ignore clear topic-evidence mismatch; flag it in `Evidence Alignment Check`
 - Do not force every keyword into headings
 - Do not recommend a page structure that conflicts with the inferred search intent
+- Do not plan mixed-mode pages whose sections belong to different page types without a clear primary mode
+- Do not plan standalone reader-facing sections that talk about the page itself, the writing process, or the source pack
+- Do not combine loosely related series or model families inside one comparison or parameter block unless the evidence explicitly connects them
 - Do not output full-body copy
 - Keep the architecture realistic for a business website
 - Prefer commercial clarity over SEO theater
